@@ -1,0 +1,69 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require_self
+ *= require vendor
+ *= require_tree .
+ */
+
+
+
+// Core variables and mixins
+@import "variables";
+@import "mixins";
+
+// Reset
+@import "normalize";
+@import "print";
+
+// Core CSS
+@import "scaffolding";
+@import "type";
+@import "code";
+@import "grid";
+@import "tables";
+@import "forms";
+@import "buttons";
+
+// Components
+@import "component-animations";
+@import "glyphicons";
+@import "dropdowns";
+@import "button-groups";
+@import "input-groups";
+@import "navs";
+@import "navbar";
+@import "breadcrumbs";
+@import "pagination";
+@import "pager";
+@import "labels";
+@import "badges";
+@import "jumbotron";
+@import "thumbnails";
+@import "alerts";
+@import "progress-bars";
+@import "media";
+@import "list-group";
+@import "panels";
+@import "wells";
+@import "close";
+
+// Components w/ JavaScript
+@import "modals";
+@import "tooltip";
+@import "popovers";
+@import "carousel";
+
+// Utility classes
+@import "utilities";
+@import "responsive-utilities";
+
+
+
